@@ -9,6 +9,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "register-service-worker": "^1.7.1",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
@@ -38,5 +39,23 @@
     "sass-loader": "^8.0.2",
     "typescript": "~3.9.3",
     "vue-template-compiler": "^2.6.11"
+  },
+  "extends": [
+    "plugin:vue/essential",
+    "@vue/prettier"
+  ],
+  "rules": {
+    "prettier/prettier": [
+      "warn",
+      {
+        "#": "prettier config in here :)",
+        "singleQuote": 1,
+        "semi": 0,
+        "trailingComma": 0
+      }
+    ]
+  },
+  "parserOptions": {
+    "parser": "babel-eslint"
   }
 }
