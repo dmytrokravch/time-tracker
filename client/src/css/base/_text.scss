@@ -1,0 +1,171 @@
+body {
+  font-size: 16px;
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+.fw-500 {
+ font-weight: 500;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Montserrat';
+}
+
+.title-font {
+  font-family: 'Montserrat';
+}
+
+h1,
+.h1 {
+  font-size: 44px;
+}
+
+h2,
+.h2 {
+  font-size: 36px;
+
+  @media (max-width: 767px) {
+    font-size: 24px;
+  }
+}
+h3,
+.h3 {
+  font-size: 24px;
+}
+h4,
+.h4 {
+  font-size: 16px;
+}
+h5,
+.h5 {
+  font-size: 14px;
+}
+h6,
+.h6 {
+  font-size: 12px;
+}
+
+// a {
+//   color: #333 !important;
+//   text-decoration: none !important;
+// }
+// Atomic styles for text
+.serif {
+  font-family: 'Montserrat';
+}
+button {
+  font-family: 'Montserrat' !important;
+  font-weight: 500;
+}
+.sans-serif {
+  font-family: 'Montserrat';
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.align-center {
+  text-align: center;
+}
+.align-right {
+  text-align: right;
+}
+.align-left {
+  text-align: left;
+}
+.align-justify {
+  text-align: justify;
+}
+
+.weight-400 {
+  font-weight: 400;
+}
+.weight-700 {
+  font-weight: 700;
+}
+
+.lh14 {
+  line-height: 14px;
+}
+.lh16 {
+  line-height: 16px;
+}
+.lh20 {
+  line-height: 20px;
+}
+.lh25 {
+  line-height: 25px;
+}
+.lh30 {
+  line-height: 30px;
+}
+.lh35 {
+  line-height: 35px;
+}
+.lh40 {
+  line-height: 40px;
+}
+
+// Sizes
+.fs-medium-small {
+  font-size: 14px;
+}
+.fs-medium {
+  font-size: 18px;
+}
+.fs-large {
+  font-size: 24px;
+}
+.fs-big {
+  font-size: 36px;
+}
+
+// @todo its not in styleguite therefore shouldn't be here, ask Karol Bzik
+.fs16 {
+  font-size: 16px;
+}
+
+.category-desc {
+  p {
+    /* margin: 0; */
+    font-size: .8em;
+    line-height: 1.2em;
+    margin: 1em 0;
+  }
+  h2{
+    font-size: 1em;
+    margin: 1em 0;
+    line-height: 1em;
+  }
+}
+
+.static-box p {
+  line-height: 1.5em;
+}
+
+.static-box{
+  table{
+    border-collapse: collapse;
+    tr{
+      border-bottom: 1px solid #eee;
+    }
+    th{
+      text-align: left;
+      padding: 10px 10px 5px;
+      font-size: .9em;
+      line-height: 1.5em
+    }
+    p{
+      margin: 0;
+    }
+    td{
+      padding: 10px 10px 5px;
+      font-size: .9em;
+      line-height: 1.5em
+    }
+  }
+}
